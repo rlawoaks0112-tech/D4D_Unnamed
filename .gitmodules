@@ -1,0 +1,9 @@
+[submodule "SAPIENT_MODULES/SAPIENT-Proto-Files"]
+	path = SAPIENT_MODULES/SAPIENT-Proto-Files
+	url = https://github.com/dstl/SAPIENT-Proto-Files.git
+[submodule "SAPIENT_MODULES/Apex-SAPIENT-Middleware"]
+	path = SAPIENT_MODULES/Apex-SAPIENT-Middleware
+	url = https://github.com/dstl/Apex-SAPIENT-Middleware.git
+[submodule "SAPIENT_MODULES/BSI-Flex-335-v2-Test-Harness"]
+	path = SAPIENT_MODULES/BSI-Flex-335-v2-Test-Harness
+	url = https://github.com/dstl/BSI-Flex-335-v2-Test-Harness.git
