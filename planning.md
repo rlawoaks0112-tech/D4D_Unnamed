@@ -141,7 +141,7 @@ D4D_2/
 - **SAPIENT 버전**: BSI Flex 335 **v2.0**.
 - **입력**: ASM 출력(`DetectionReport`)은 주어진다고 가정. 개발·평가는 `SapientAsmSimulator`와 자체 시나리오 생성기로 대체.
 - **ASM 구성**: 실제 운용을 가정할 ASM 종류·배치(레이더/EO/RF/음향 조합)를 시나리오 설계 전에 확정 필요.
-- **ASM 출력 수준**: ASM이 원탐지만 보내는지, 자체 트랙(`object_id` 유지)까지 보내는지에 따라 Stone Soup 구성(측정 융합 vs 트랙 융합)이 달라짐.
+- **ASM 출력 수준**: SAPIENT는 센서별 프로파일이 없고 ASM이 Registration(`tracking_type` 등)으로 선언 → DMM은 측정 융합·트랙 융합을 모두 지원. 상세: [docs/sapient_sensor_assumptions.md](docs/sapient_sensor_assumptions.md)
 - **대응 수단**: 재밍·GNSS 교란 등은 법적 제약 → 추천·시뮬레이션까지만 수행 가정.
 - **위협평가 기준**: 보호구역 목록·가중치·대응 교리(ROE)는 공개 정보 기반 가정값으로 시작.
 - **언어**: Apex·Stone Soup 모두 Python → DMM도 Python. (Test Harness는 C#/.NET — 실행 환경 필요)
